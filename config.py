@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "c6f15ce66cf083be6f7642dbf6f6bb7413
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://competitiveeupdates.blogspot.com/2025/02/redirecting-to-your-link-code-credit.html") # For More Information Check Video On Yt - @Tech_VJ
